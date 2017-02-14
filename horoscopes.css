@@ -1,0 +1,72 @@
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+body{
+  background-color: black;
+}
+.main{
+  border: 1px solid black;
+  height: 400px;
+  width: 60%;
+  margin-left: 268px;
+  background: url(https://secure.static.tumblr.com/8ff426f9ad906753157cf7931e10e392/nsr1k6u/VBOnztrn3/tumblr_static_tumblr_static__640.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+input{
+  height: 40px;
+  width: 24%;
+  float: left;
+  margin-left: 144px;
+  margin-top: 93px;
+}
+button{
+  border: 1px solid black;
+  margin-top: 78px;
+  margin-left: 335px;
+  width: 19%;
+  border-color: white;
+  background-color: black;
+  font-style: italic;
+  text-decoration: line-through;
+  color: white;
+}
+#sign,#horoscope{
+  float: left;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: lighter;
+  text-decoration: line-through;
+  color: white;
+}
+#sign{
+  margin-top: -330px;
+  margin-left: 55px;
+}
+#horoscope{
+  margin-left: 1126px;
+  margin-top: -343px;
+  text-decoration: none;
+}
+@media (max-width: 600px){
+.main{
+  margin-top: 30px;
+  background-position: center;
+  margin-left: 60px;
+}
+input{
+  margin-left: 60px;
+  width: 60%;
+}
+#sign,#horoscope{
+  margin-left: 30px;
+  font-size: 10px;
+  margin-top: 60px;
+}
+button{
+  width: 50%;
+  margin-left: 70px;
+}
+}
